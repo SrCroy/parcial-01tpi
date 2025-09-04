@@ -1,0 +1,7 @@
+ croy@DEBIAN:~/Documentos/TPI/parcial-01/parcial-01tpi$ docker build -t rg22016-server-php .
+
+ croy@DEBIAN:~/Documentos/TPI/parcial-01/parcial-01tpi$ docker build -t rg22016-server-php:v0 .
+
+ croy@DEBIAN:~/Documentos/TPI/parcial-01/parcial-01tpi$ docker run -d --name mi-server --rm -p 8080:80 -v .:/var/www/html rg22016-server-php:latest 
+d0fbf37b08002ef0727822cdd4c64e851987d1dcea46cb8eb8991fb78ea856ea
+
